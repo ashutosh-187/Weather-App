@@ -1,0 +1,39 @@
+.card-container {
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 2%;
+}
+
+.card {
+    /* background-color: green; */
+    width: 100%;
+    height: 100%;
+}
+
+.weather-report-container {
+    width: 100%;
+    /* background-color: blue; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.summary-container {
+    margin-top: 10px;
+    border-top: solid 1px white;
+    border-radius: 2px;
+}
+
+.weather-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
